@@ -6,28 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="//xueningyun.github.io">
-  <title>NE564 | Xiaoguo&#39;s Blog</title>
+  <title>排序算法 | Xiaoguo&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="仅供参考，应用时请仔细阅读英文数据手册">
-<meta name="keywords" content="锁相环,翻译,datasheet">
+  <meta name="description" content="选择排序简单选择排序，通过n-i次关键字间的比较，从n-i+1个记录中选出关键字最小的记录，并和第i个记录交换之，即从第一个数据开始，进行比较，找出最小值，第二次从第二个数据开始，以此类推。C语言代码如下(其中Sqlist为结构体定义，由数组和数组长度构成)：123456789101112131415161718192021void SelectSort(Sqlist *L)&amp;#123;	int">
+<meta name="keywords" content="数据结构,算法,排序">
 <meta property="og:type" content="article">
-<meta property="og:title" content="NE564">
-<meta property="og:url" content="//xueningyun.github.io/2019/01/19/NE564/index.html">
+<meta property="og:title" content="排序算法">
+<meta property="og:url" content="//xueningyun.github.io/2020/04/21/paixu/index.html">
 <meta property="og:site_name" content="Xiaoguo&#39;s Blog">
-<meta property="og:description" content="仅供参考，应用时请仔细阅读英文数据手册">
+<meta property="og:description" content="选择排序简单选择排序，通过n-i次关键字间的比较，从n-i+1个记录中选出关键字最小的记录，并和第i个记录交换之，即从第一个数据开始，进行比较，找出最小值，第二次从第二个数据开始，以此类推。C语言代码如下(其中Sqlist为结构体定义，由数组和数组长度构成)：123456789101112131415161718192021void SelectSort(Sqlist *L)&amp;#123;	int">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="//xueningyun.github.io/images/NE564/ti.jpg">
-<meta property="og:image" content="//xueningyun.github.io/images/NE564/NE564_0.png">
-<meta property="og:image" content="//xueningyun.github.io/images/NE564/NE564_1.png">
-<meta property="og:image" content="//xueningyun.github.io/images/NE564/NE564_2.png">
-<meta property="og:image" content="//xueningyun.github.io/images/NE564/NE564_3.png">
-<meta property="og:image" content="//xueningyun.github.io/images/NE564/NE564_4.png">
-<meta property="og:image" content="//xueningyun.github.io/images/NE564/NE564_5.png">
-<meta property="og:updated_time" content="2020-04-20T08:19:01.030Z">
+<meta property="og:image" content="//xueningyun.github.io/images/paixu/maopao1.jpg">
+<meta property="og:image" content="//xueningyun.github.io/images/paixu/maopao2.jpg">
+<meta property="og:updated_time" content="2020-04-21T08:57:32.121Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="NE564">
-<meta name="twitter:description" content="仅供参考，应用时请仔细阅读英文数据手册">
-<meta name="twitter:image" content="//xueningyun.github.io/images/NE564/ti.jpg">
+<meta name="twitter:title" content="排序算法">
+<meta name="twitter:description" content="选择排序简单选择排序，通过n-i次关键字间的比较，从n-i+1个记录中选出关键字最小的记录，并和第i个记录交换之，即从第一个数据开始，进行比较，找出最小值，第二次从第二个数据开始，以此类推。C语言代码如下(其中Sqlist为结构体定义，由数组和数组长度构成)：123456789101112131415161718192021void SelectSort(Sqlist *L)&amp;#123;	int">
+<meta name="twitter:image" content="//xueningyun.github.io/images/paixu/maopao1.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Xiaoguo&#39;s Blog" type="application/atom+xml">
   
@@ -173,20 +168,20 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-NE564" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-paixu" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      NE564
+      排序算法
     </h1>
   
 
         
-        <a href="/2019/01/19/NE564/" class="archive-article-date">
-  	<time datetime="2019-01-19T02:13:29.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-19</time>
+        <a href="/2020/04/21/paixu/" class="archive-article-date">
+  	<time datetime="2020-04-21T05:15:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-21</time>
 </a>
 
 
@@ -205,36 +200,43 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/images/NE564/ti.jpg" alt="ti"><br>仅供参考，应用时请仔细阅读英文数据手册</p>
-<a id="more"></a>
-<center>NE564-锁相环</center>
-
-<h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>NE / SE564是一款多功能，高保证频率的锁相环，设计工作频率高达50MHz。 如框图所示，NE / SE564由VCO，限幅器，鉴相器和后检波处理器组成。</p>
-<h3 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h3><ul>
-<li>采用5V单电源供电</li>
-<li>TTL兼容的输入和输出</li>
-<li>保证运行至50MHz</li>
-<li>外部环路增益控制</li>
-<li>减少载波馈通</li>
-<li>FSK应用是不需要精密滤波</li>
-<li>可用作调制器</li>
-<li>可变环路增益（外部控制）</li>
+        <h3 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h3><p>简单选择排序，通过n-i次关键字间的比较，从n-i+1个记录中选出关键字最小的记录，并和第i个记录交换之，即从第一个数据开始，进行比较，找出最小值，第二次从第二个数据开始，以此类推。C语言代码如下(其中Sqlist为结构体定义，由数组和数组长度构成)：<br><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">void SelectSort(Sqlist *L)</span><br><span class="line">&#123;</span><br><span class="line">	int <span class="built_in">i</span>,<span class="built_in">j</span>,<span class="built_in">min</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="built_in">i</span>=<span class="number">0</span>;<span class="built_in">i</span>&lt;L-&gt;<span class="built_in">length</span>;<span class="built_in">i</span>++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">min</span>=<span class="built_in">i</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="built_in">j</span>=<span class="built_in">i</span>+<span class="number">1</span>;<span class="built_in">j</span>&lt;=L-&gt;<span class="built_in">length</span>;<span class="built_in">j</span>++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(L-&gt;r[<span class="built_in">min</span>]&gt;L-&gt;r[<span class="built_in">j</span>])</span><br><span class="line">			<span class="built_in">min</span>=<span class="built_in">j</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(<span class="built_in">i</span>!=<span class="built_in">min</span>)</span><br><span class="line">	swap(L,<span class="built_in">i</span>,<span class="built_in">min</span>);</span><br><span class="line">&#125;</span><br><span class="line">void swap(Sqlist *L,int <span class="built_in">i</span>,int <span class="built_in">j</span>)</span><br><span class="line">&#123;</span><br><span class="line">	int temp=L-&gt;r[<span class="built_in">i</span>];</span><br><span class="line">	L-&gt;r[<span class="built_in">i</span>]=L-&gt;r[<span class="built_in">j</span>];</span><br><span class="line">	L-&gt;r[<span class="built_in">j</span>]=temp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><p>两两比较相邻记录的关键字，如果反序则交换，直到没有反序记录为止。</p>
+<p><div align="center"><img width="86%" height="86%" src="/images/paixu/maopao1.jpg"></div></p>
+<p><div align="center"><img width="86%" height="86%" src="/images/paixu/maopao2.jpg"></div><br><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">void BubbleSort(Sqlist *L)</span><br><span class="line">&#123;</span><br><span class="line">	int <span class="built_in">i</span>,<span class="built_in">j</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="built_in">i</span>=<span class="number">0</span>;<span class="built_in">i</span>&lt;L-&gt;<span class="built_in">length</span>;<span class="built_in">i</span>++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span>(<span class="built_in">j</span>=L-&gt;<span class="built_in">length</span>;<span class="built_in">j</span>&gt;=<span class="built_in">i</span>;<span class="built_in">j</span>--)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(L-r[<span class="built_in">j</span>]&gt;L-r[<span class="built_in">j</span>+<span class="number">1</span>])</span><br><span class="line">			&#123;</span><br><span class="line">				swap(L,<span class="built_in">j</span>,<span class="built_in">j</span>+<span class="number">1</span>);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h3><p>将一个记录插入到一个有序表中，从而得到一个新的有序表。<br><figure class="highlight xl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">void InsertSort(Sqlist *L)</span><br><span class="line">&#123;</span><br><span class="line">	int i,j;</span><br><span class="line">	int x; <span class="comment">//设置哨兵</span></span><br><span class="line">	<span class="function"><span class="title">for</span>(i=1;i&lt;L-&gt;</span>length;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="function"><span class="title">if</span>(L-&gt;</span><span class="function"><span class="title">r</span>[i]&lt;L-&gt;</span>r[i-<span class="number">1</span>])</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="function"><span class="title">x</span>=L-&gt;</span>r[i];</span><br><span class="line">			<span class="function"><span class="title">for</span>(j=i-1;L-&gt;</span>r[j]&gt;x;j--)</span><br><span class="line">			&#123;</span><br><span class="line">				L-&gt;<span class="function"><span class="title">r</span>[j+1]=L-&gt;</span>r[j];</span><br><span class="line">			&#125;</span><br><span class="line">			L-&gt;r[j+<span class="number">1</span>]=x;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">### 并归排序</span><br><span class="line">利用分治思想，将n个记录的序列，一层层对半分层两个子序列，最终得到[n/<span class="number">2</span>]个长度为<span class="number">2</span>或者<span class="number">1</span>的有序子序列，再两两并归，最终得到长度n的有序序列。</span><br></pre></td></tr></table></figure></p>
+<p>/<em>num[]为需排序的序列，tum[]为排序后的序列，first为序列起点，last为序列尾点</em>/<br>void mergeSort(int <em>num,int first,int last,int </em>tum)<br>{<br>    if(first&lt;last)<br>    {<br>        int mid;<br>        mid=(last-first)/2+first;<br>        mergeSort(num,first,mid,tum);<br>        mergeSort(num,mid+1,last,tum);<br>        mergetow(num,first,mid,last,tum);<br>    }<br>}</p>
+<p>void mergetow(int <em>num,int first,int mid,int last,int </em>tum)<br>{<br>    int i,j,n,m;<br>    int k=0;<br>    i=first;<br>    j=mid+1;<br>    n=mid+1;<br>    m=last+1;</p>
+<pre><code>while(i&lt;n&amp;&amp;j&lt;m)
+{
+    if(num[i]&lt;num[j])
+    {
+        tum[k++]=num[i++];
+    }
+    else
+    {
+        tum[k++]=num[j++];
+    }
+}
+while(i&lt;n)//将剩余的num[]元素复制到tum中
+{
+    tum[k++]=num[i++];
+}
+while(j&lt;m)
+{
+    tum[k++]=num[j++];
+}
+for (i = 0; i &lt; k; i++)
+{
+    num[first + i] = tum[i];
+}
+</code></pre><p>}<br><figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">### 快速排序</span><br><span class="line">采用分治思想，将序列进行分割，即划分交换。</span><br><span class="line">基本思想为：</span><br><span class="line"><span class="number">1</span>、先从数列中取出一个数作为基准数。</span><br><span class="line"><span class="number">2</span>、分区，将比这个数大的数全放到它的右边，小于或等于它的数全放到它的左边。</span><br><span class="line"><span class="number">3</span>、对左右区间重复第二步，直到各区间只有一个数。</span><br><span class="line">有一个很形象的描述，就是：挖坑填数+分治法。</span><br><span class="line"><span class="number">1</span>、如示例数组，取区间第一个数为基准数。</span><br><span class="line">&lt;div align=center&gt;&lt;img width=<span class="number">95</span>% height=<span class="number">95</span>% src=<span class="string">"/images/paixu/kuaisu1.jpg"</span>/&gt;&lt;/div&gt;</span><br><span class="line"><span class="number">2</span>、有基准数后，便进行分区，将小于或等于a[<span class="number">0</span>](基准数)放在左边，大于a[<span class="number">0</span>]放在右边。</span><br><span class="line">分区过程，即挖坑填数。</span><br><span class="line">初始时，i = <span class="number">0</span>;  j = <span class="number">9</span>;   e = a[i] = <span class="number">72</span>。</span><br><span class="line">由于已经将a[<span class="number">0</span>]中的数保存到e中，可以理解成在数组a[<span class="number">0</span>]上挖了个坑，可以将其它数据填充到这来。</span><br><span class="line">从j开始（即数组的终端，最右边开始）向前找一个比e小或等于e的数。当j=<span class="number">8</span>，符合条件，将a[<span class="number">8</span>]挖出再填到上一个坑a[<span class="number">0</span>]中。坑a[<span class="number">0</span>]被填好，又产生了一个新坑a[<span class="number">8</span>]，所以接着找数字来填a[<span class="number">8</span>]这个坑。这次从i开始向后找一个大于e的数，当i=<span class="number">3</span>，符合条件，将a[<span class="number">3</span>]挖出填到上一个坑a[<span class="number">8</span>]中。</span><br><span class="line">数组变为：</span><br><span class="line">&lt;div align=center&gt;&lt;img width=<span class="number">95</span>% height=<span class="number">95</span>% src=<span class="string">"/images/paixu/kuaisu2.jpg"</span>/&gt;&lt;/div&gt;</span><br><span class="line">此时，i=<span class="number">3</span>，j=<span class="number">7</span>,e=<span class="number">72</span>。</span><br><span class="line"><span class="number">3</span>、重复步骤<span class="number">2</span>，挖的坑大于基准数则从后向前找，坑小于基准数则由前往后找。</span><br><span class="line"><span class="number">4</span>、直到i=j时，退出，本例中i=j=<span class="number">5</span>时退出，此时坑为a[<span class="number">5</span>],并将e填入坑a[<span class="number">5</span>]。</span><br><span class="line">数组变为：</span><br><span class="line">&lt;div align=center&gt;&lt;img width=<span class="number">95</span>% height=<span class="number">95</span>% src=<span class="string">"/images/paixu/kuaisu3.jpg"</span>/&gt;&lt;/div&gt;</span><br><span class="line">由上图，a[<span class="number">5</span>]左边的数都小于它，右边的数都大于它。</span><br><span class="line"><span class="number">5</span>、以a[<span class="number">5</span>]为界划分为左右两个数组子区间，然后再对左右两个子区间a[<span class="number">0</span>~<span class="number">4</span>]、a[<span class="number">6</span>~<span class="number">9</span>]重复<span class="number">1</span>、<span class="number">2</span>、<span class="number">3</span>、<span class="number">4</span>步骤，直到排序完成。</span><br><span class="line">C语言代码如下：</span><br></pre></td></tr></table></figure></p>
+<p>void quick_sort(int *num,int L,int H)<br>{<br>    if(L&lt;H)<br>    {   int i=L;<br>        int j=H;<br>        int e=num[L];<br>        while(i&lt;j)<br>        {<br>            while(i&lt;j&amp;&amp;num[j]&gt;=e)<br>            {<br>                j–;<br>            }<br>            if(i&lt;j)<br>            {<br>                num[i++]=num[j];<br>            }<br>            while(i&lt;j&amp;&amp;num[i]&lt;e)<br>            {<br>                i++;<br>            }<br>            if(i&lt;j)<br>            {<br>                num[j–]=num[i];<br>            }<br>        }<br>        num[i]=e;<br>        quick_sort(num,L,i-1);<br>        quick_sort(num,i+1,H);<br>    }<br>}<br><code>`</code></p>
+<p><strong>参考文献</strong></p>
+<ul>
+<li>陈杰 《大话数据结构》</li>
+<li><font color="black" size="4">白话经典算法系列之六 快速排序 快速搞定 <a href="https://blog.csdn.net/MoreWindows/article/details/6684558" target="_blank" rel="noopener">CSDN</a></font></li>
 </ul>
-<h3 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h3><ul>
-<li>高速调制解调器</li>
-<li>FSK接收器和发射器</li>
-<li>频率合成器</li>
-<li>信号发生器</li>
-<li>各种卫星通信/电视系统</li>
-<li>引脚配置<div align="center"><img width="70%" height="70%" src="/images/NE564/NE564_0.png"></div><br><div align="center"><img width="86%" height="86%" src="/images/NE564/NE564_1.png"></div><br>绝对最大额定值<br><div align="center"><img width="86%" height="86%" src="/images/NE564/NE564_2.png"></div><br>注意：高于5V的操作将需要对壳体进行散热。<br>直流和交流电气特性<br>VCC = 5V; TA = 0 to 25°C; fO = 5MHz, I2 = 400mA; 除非另有规定<br><div align="center"><img width="86%" height="86%" src="/images/NE564/NE564_3.png"></div><br><div align="center"><img width="86%" height="86%" src="/images/NE564/NE564_4.png"></div><br>典型的性能特征<br><div align="center"><img width="86%" height="86%" src="/images/NE564/NE564_5.png"></div>  
-
-</li>
-</ul>
-<h3 id="功能说明"><a href="#功能说明" class="headerlink" title="功能说明"></a>功能说明</h3><p>NE564是一款带有后检测处理器的单片锁相环。肖特基钳位晶体管的使用和优化的器件几何尺寸将工作频率扩展到大于50MHz。<br>除了传统的PLL应用之外，NE564还可用作具有可控频率偏差的调制器。<br>PLL的输出可以写成如下公式所示：<br>VO =(fIN - fO)/KVCO<br>KVCO = VCO的转换增益<br>fIN =输入信号的频率<br>fO = VCO的自由运行频率<br>恢复FSK信号的过程涉及将PLL输出转换为逻辑兼容信号。 对于高数据速率，由于环路滤波器的宽带特性，在PLL的输出端将存在相当大量的载波。 为避免使用复杂的滤波器，需要具有迟滞或施密特触发器的比较器。 在VCO的转换增益固定的情况下，等式1给出的输出电压根据fIN与f0的频率偏差而变化。 由于这在系统与系统之间存在差异，因此必须能够改变施密特触发器的滞后，以便可以针对特定系统进行优化。 这是通过改变引脚15处的电压在564中完成的，这导致施密特触发器的滞后变化。<br>对于FSK信号，需要考虑的一个重要因素是VCO自身的自由运行频率的漂移。 如果由于温度而发生变化，则根据公式1，它将导致PLL输出的DC电平发生变化，从而导致数字输出信号中的误差。 对于窄带信号尤其如此，其中fIN本身的偏差可能小于由于温度引起的fO的变化。 如果检索信号的DC或平均值并将其用作比较器的参考，则可以消除这种影响。 以这种方式，PLL输出的DC电平的变化不会影响FSK输出。</p>
-<h4 id="VCO部分"><a href="#VCO部分" class="headerlink" title="VCO部分"></a>VCO部分</h4><p>由于其固有的高频性能，在VCO中使用发射极耦合振荡器。 在电路中，如等效示意图所示，具有电流源Q25-Q26的晶体管Q21和Q23形成基本振荡器。 振荡器的近似自由运行频率如下式所示：<br>fO =1/[22 RC (C1 + CS)]<br>RC = R19 = R20 = 100Ω (INTERNAL)<br>C1 =外部频率设定电容器<br>CS =杂散电容<br>VD（相位检测器输出电压）的变化会改变振荡器的频率。如等式2所示，由于单片电阻器，振荡器的频率具有负温度系数。为了补偿这一点，引入具有负温度系数的电流IR以实现随温度的低频漂移。</p>
-<h4 id="鉴相器部分"><a href="#鉴相器部分" class="headerlink" title="鉴相器部分"></a>鉴相器部分</h4><p>相位检测处理器由一个双平衡调制器和一个限幅放大器组成，以改善AM抑制。肖特基钳位垂直PNP用于获得TTL电平输入。通过改变Q4和Q15中的电流可以改变环路增益，这有效地改变了差分放大器的增益。这可以通过在引脚2处引入电流来实现。<br>后检测处理器部分<br>后检测处理器由单位增益跨导放大器和比较器组成。 放大器可用作用于解调FSK信号的DC检索器，以及用作线性FM解调的后检测滤波器。 比较器具有可调滞后，因此可以消除输出信号中的相位抖动。<br>如等效示意图所示，DC检索器由跨导放大器Q42-Q43与外部电容器一起形成，外部电容器连接在放大器输出端（引脚14）。 这形成了一个积分器，其输出电压如下式所示：<br>VO =gM/C2 VINdt<br>gM =放大器的跨导<br>C2 =输出端的电容（引脚14）<br>VIN =放大器输入端的信号电压<br>通过适当选择C2，可以改变积分器时间常数，使得输出电压是用于FSK的输入信号的DC或平均值，或者作为线性解调中的后检测滤波器。<br>具有迟滞的比较器由Q49-Q50组成，Q47-Q48提供正反馈。 通过改变Q52中的电流来改变滞后，导致比较器的环路增益变化。 这种滞后控制方法是DC控制，在标称值附近提供对称变化。</p>
-<h4 id="公式设计"><a href="#公式设计" class="headerlink" title="公式设计"></a>公式设计</h4><p>VCO的自由运行频率如下式所示：</p>
-<center>fO =1/[22 RC (C1 + CS)]</center><br><center>RC = R19 = R20 = 100Ω (INTERNAL)</center><br><center>C1 =外部频率设定电容器</center><br><center>CS =杂散电容</center><br>显示的环路滤波器图由以下等式解释：<br><center>fS =1/[1 + sRC3]</center><br><center>R = R12 = R13 = 1.3kW (Internal)</center><br>通过在引脚4和5上添加电容，将极点添加到环路转移处<br><center>w =1/RC3</center>
 
       
 
@@ -279,15 +281,15 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">锁相环</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">数据结构</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">翻译</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">datasheet</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">排序</a>
         		</li>
       		
 		</ul>
@@ -354,7 +356,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACLUlEQVR42u3aS27DMAxF0ex/0y7QUYFAyn2kU8Di1ahoE1nHA5YfvV54Xb/r/Td/1/snV3/ln795yZAh47GMa7v2D1g9crUPeU2r537YU4YMGQMYZOv9gVZH4YG7s48MGTJkEMCeuv8MSTRlyJAhI2WQA5HwTT4pQ4YMGbyITZtitQD69VpchgwZD2Skg4H//PmL8w0ZMmQ8hHGFiwTTfjkan0qGDBlHM2qtLnLoWrstja7oATJkyDiC0TlirfRNhwe8qSdDhow5jLRxRo7VucCRvg4ZMmScxNhvytM43spPE8RgsiFDhozBDBIceRpXa+F9SB9lyJBxNKN2iFrYJcPRtKyVIUPGZAY/Ik8Z00PzlyVDhoyzGSRFI2GU9/DId+MBgwwZMsYw0gSuX46S/wZxwJUhQ8YwRicU1uaovDEnQ4aMOYx0MJm21WpXK1p3RmTIkHEcgxerafLXL2vJSWTIkDGBQTa9t9Gfpp7pxQ4ZMmSczSBB7a6ksBaO0UuUIUPGcYx0u/TaFk/+OsNOGTJkzGR0StO04Oz8XoYMGRMYadurn4GmhyYDThkyZJzNuMLVufjVv5Cx/JYMGTKOZvBFrnCljba0wYfujMiQIeNQBt+6Vlh2SmX+LRkyZExgFG9nlEJzLa1E90RkyJAxnsFL2c5wlITvVsCVIUPGMEY68kwL2uA8MmTIGMDgRWytb9cZdqKALkOGjKMZael4b5naGQy80iVDhoznMX4AYK2tY3kwtt4AAAAASUVORK5CYII=" alt="微信分享二维码">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACKklEQVR42u3aMXLDMAwEQP//006dQtIdqGRG1KrKZGQS6wImCHw+8fONn6P3z9c8+s/NDwYGxmMZK2GdB7GyTh4bBgbGexhHGWy2dLF9kILPY8PAwMA4eqfF5IFiYGBg3JVwo6VPkykGBgZGy0hS5/lm+XGwLW5vrsUxMDAeyMhv3f//7z/pb2BgYDyK8S2fhJdfma1E8msXDAyMrRnr2ySNzLZYbePBwMDYmzG71s8v0fIyuF2//o4xMDAey2iHHmbHvgSWpOnkfQwMjP0Ys/K1vfRvmxB5W7SugDEwMB7OSIrJ9uqtPd7dMGaBgYGxHSMfdJjh8+GJJPS6IsfAwNiCMQto/Tg4K24PS1wMDIytGe2Br209toVxkqYvOrEYGBjbMZIm4sr1XH4ozIvVaFoEAwPjBYz1i/s83Hy1i0MhBgbGpozZEXAliLyInQ1nYGBgvI2R9xaGW8ZHzyIqDAyMFzDydmb+frJOjr9AYmBgvICxMjAx3DhIo8MiFgMDYyNGPhDWFr3t9VlS7hbDFhgYGJsy2sTaHv7u/VIwMDDexkgOi+1Q18oVXv0pDAyMTRnrKbUFJMVt0sLEwMB4D2OW7NridtaenLUNMDAwdmXkSfYu0qxJeZF8MTAwXsDIE99Ky3MGjlI/BgYGRjmwlbQq2zZndOmGgYGBUR7gWmTbzrztdwMDA+MhjFkzYBZ6PtJRjF9gYGBszchLx3ZsYhbuys8ABgbGdowfh2RgvhDYr80AAAAASUVORK5CYII=" alt="微信分享二维码">
     </div>
 </div>
 
@@ -368,18 +370,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/01/19/study_notes/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          读书笔记
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/01/19/movie_house/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">电影小栈</div>
+    <a href="/2020/04/17/jsjwl/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">计算机网络笔记</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -406,7 +399,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#概述"><span class="toc-number">1.</span> <span class="toc-text">概述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#特征"><span class="toc-number">2.</span> <span class="toc-text">特征</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#应用"><span class="toc-number">3.</span> <span class="toc-text">应用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#功能说明"><span class="toc-number">4.</span> <span class="toc-text">功能说明</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#VCO部分"><span class="toc-number">4.1.</span> <span class="toc-text">VCO部分</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#鉴相器部分"><span class="toc-number">4.2.</span> <span class="toc-text">鉴相器部分</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#公式设计"><span class="toc-number">4.3.</span> <span class="toc-text">公式设计</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#选择排序"><span class="toc-number">1.</span> <span class="toc-text">选择排序</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#冒泡排序"><span class="toc-number">2.</span> <span class="toc-text">冒泡排序</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#插入排序"><span class="toc-number">3.</span> <span class="toc-text">插入排序</span></a></li></ol>
                     </div>
                 </span>
             </div>
@@ -420,7 +413,7 @@
   
   <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="NE564" data-title="NE564" data-url="//xueningyun.github.io/2019/01/19/NE564/"></div>
+	<div class="ds-thread" data-thread-key="paixu" data-title="排序算法" data-url="//xueningyun.github.io/2020/04/21/paixu/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
