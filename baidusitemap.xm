@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>//xueningyun.github.io/2020/04/22/zhezhi/</loc>
-    <lastmod>2020-04-22</lastmod>
-  </url>  <url>
     <loc>//xueningyun.github.io/2020/04/17/jsjwl/</loc>
+    <lastmod>2020-04-23</lastmod>
+  </url>  <url>
+    <loc>//xueningyun.github.io/2020/04/22/zhezhi/</loc>
     <lastmod>2020-04-22</lastmod>
   </url>  <url>
     <loc>//xueningyun.github.io/2020/04/21/paixu/</loc>
