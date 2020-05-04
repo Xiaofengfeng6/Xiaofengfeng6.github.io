@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>//xueningyun.github.io/2019/01/19/study_notes/</loc>
+    <lastmod>2020-05-04</lastmod>
+  </url>  <url>
     <loc>//xueningyun.github.io/2020/04/24/didi/</loc>
     <lastmod>2020-04-24</lastmod>
   </url>  <url>
@@ -20,9 +23,6 @@
     <lastmod>2020-04-20</lastmod>
   </url>  <url>
     <loc>//xueningyun.github.io/2019/03/13/COC/</loc>
-    <lastmod>2020-04-20</lastmod>
-  </url>  <url>
-    <loc>//xueningyun.github.io/2019/01/19/study_notes/</loc>
     <lastmod>2020-04-20</lastmod>
   </url>  <url>
     <loc>//xueningyun.github.io/2019/01/19/movie_house/</loc>
