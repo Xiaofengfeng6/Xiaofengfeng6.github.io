@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>//xueningyun.github.io/2020/05/11/wjyl/</loc>
+    <lastmod>2020-05-11</lastmod>
+  </url>  <url>
     <loc>//xueningyun.github.io/2019/01/19/study_notes/</loc>
     <lastmod>2020-05-04</lastmod>
   </url>  <url>
